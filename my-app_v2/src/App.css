@@ -1,0 +1,76 @@
+html {
+  background: rgb(240, 245, 249);
+}
+
+.wrapper {
+  width: 50%;
+  height: 20vh;
+  height: fit-content;
+  padding-bottom: 1vh;
+  margin: auto;
+  background: rgb(80, 137, 145);
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  text-align: center;
+}
+
+.task {
+  width: min-content;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  background: rgb(223, 240, 216);
+  border-radius: 10px;
+  padding: 7px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  min-width: max-content;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background: rgb(23, 42, 58);
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  max-width: fit-content;
+  color: white;
+  margin-top: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tasks {
+  padding: 15px;
+}
+
+span {
+  display: inline-block;
+  padding: 6px;
+  background: rgb(46, 179, 106);
+  border-radius: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+span:hover {
+  background-color: rgb(67, 193, 124);
+}
+
+.task.completed {
+  background: #90da73;
+}
+
+
+.button:hover {
+  background: #1c5ca9;
+}
